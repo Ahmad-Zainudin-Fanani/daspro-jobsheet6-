@@ -48,7 +48,9 @@ public class Pemilihan2Percobaan202 {
         total_bayar = harga - (harga * diskon);
         System.out.println("Total bayar setelah diskon = " + total_bayar);
     }
-    else if (member.equalsIgnoreCase("n")) { //Mengunakan equalsIgnoreCse untuk membandingkan stirng
+    // Menggunakan equalsIgnoreCase untuk membandingkan string member
+    // Jika member "n" atau "N", maka tidak ada diskon
+    else if (member.equalsIgnoreCase("n")) {
         if (pilihan_menu == 1) {
             harga = 14000;
             System.out.println("Harga ricebowl = " + harga);
