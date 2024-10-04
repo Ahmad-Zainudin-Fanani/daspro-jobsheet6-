@@ -24,8 +24,9 @@ public class Pemilihan2Percobaan202 {
          System.out.print("Apakah punya member (y/n) ? = ");
          member = input02.nextLine();
          System.out.println("-------------------------------------");
-
-    if (member.equalsIgnoreCase("y")) { //Mengunakan equalsIgnoreCse untuk membandingkan stirng
+        // Menggunakan equals untuk membandingkan string member
+        // Jika member input selain "y" , maka error
+    if (member.equals("y")) { 
         diskon = 0.10;
         System.out.println("Besar diskon = 10%");
         if (pilihan_menu == 1) {
