@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BilanganTerbesarDenganLogika {
+public class BilanganTerbesarDenganLogika02 {
     public static void main(String[] args) {
         Scanner input02 = new Scanner(System.in);
         
@@ -21,7 +21,6 @@ public class BilanganTerbesarDenganLogika {
         } else {
             terbesar = bil3;
         }
-        
         // Output bilangan terbesar
         System.out.println("Maka bilangan terbesar adalah   : " + terbesar);
     }
